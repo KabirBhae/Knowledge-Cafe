@@ -6,6 +6,7 @@ import Bookmarks from "./components/Bookmarks/Bookmarks";
 
 function App() {
 	const [bookmarks, setBookmarks] = useState([]);
+	const [readingTime, setreadingTime] = useState(0);
 
 	const handleAddBookmark = newBookmark => {
 		let isDuplicate = false;
@@ -18,12 +19,16 @@ function App() {
 		if (!isDuplicate) setBookmarks([...bookmarks, newBookmark]);
 	};
 
+	const handleMarkAsRead = time => {
+		setreadingTime(readingTime + parseInt(time));
+	};
+
 	return (
 		<div className="max-w-7xl mx-auto">
 			<Header></Header>
 			<div className="md:flex mt-6">
-				<Blogs handleAddBookmark={handleAddBookmark}></Blogs>
-				<Bookmarks bookmarks={bookmarks}></Bookmarks>
+				<Blogs handleAddBookmark={handleAddBookmark} handleMarkAsRead={handleMarkAsRead}></Blogs>
+				<Bookmarks readingTime={readingTime} bookmarks={bookmarks}></Bookmarks>
 			</div>
 		</div>
 	);
