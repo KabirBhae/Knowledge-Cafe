@@ -1,0 +1,62 @@
+[
+	{
+		"id": 1,
+		"cover_image": "https://i.ibb.co.com/FqkDfxzY/1.jpg",
+		"title": "The Future of Web Development",
+		"author_name": "John Doe",
+		"author_img": "https://i.ibb.co.com/p691qxK0/pexels-anna-nekrashevich-6801642.jpg",
+		"posted_date": "2025 Feb 01",
+		"reading_time": "5",
+		"hashtags": ["#WebDevelopment", "#JavaScript", "#Frontend"]
+	},
+	{
+		"id": 2,
+		"cover_image": "https://i.ibb.co.com/Z1x8Ly8v/2.png",
+		"title": "AI and Its Impact on Society",
+		"author_name": "Jane Smith",
+		"author_img": "https://i.ibb.co.com/0VvYKS30/pexels-cottonbro-6626903.jpg",
+		"posted_date": "Jan 28, 2025",
+		"reading_time": "8",
+		"hashtags": ["#AI", "#MachineLearning", "#TechTrends"]
+	},
+	{
+		"id": 3,
+		"cover_image": "https://i.ibb.co.com/v4CkzMSR/3.png",
+		"title": "Cloud Computing: A Beginner's Guide",
+		"author_name": "Michael Johnson",
+		"author_img": "https://i.ibb.co.com/GfSGJmFL/pexels-hardeep-18519624.jpg",
+		"posted_date": "Jan 22, 2025",
+		"reading_time": "6",
+		"hashtags": ["#CloudComputing", "#AWS", "#Azure"]
+	},
+	{
+		"id": 4,
+		"cover_image": "https://i.ibb.co.com/s9ZdytF1/4.jpg",
+		"title": "Mastering JavaScript for Modern Web Apps",
+		"author_name": "Emily Davis",
+		"author_img": "https://i.ibb.co.com/Zz8V9vjm/pexels-italo-melo-881954-2379005.jpg",
+		"posted_date": "Jan 15, 2025",
+		"reading_time": "10",
+		"hashtags": ["#JavaScript", "#WebDevelopment", "#React"]
+	},
+	{
+		"id": 5,
+		"cover_image": "https://i.ibb.co.com/Fb2pt33B/pexels-pixabay-261662.jpg",
+		"title": "Cybersecurity Best Practices for Developers",
+		"author_name": "David White",
+		"author_img": "https://i.ibb.co.com/1Ggx6m2g/pexels-linkedin-2182970.jpg",
+		"posted_date": "Jul 10, 2024",
+		"reading_time": "7",
+		"hashtags": ["#Cybersecurity", "#Hacking", "#Security"]
+	},
+	{
+		"id": 6,
+		"cover_image": "https://i.ibb.co.com/G38b9T3p/pexels-simon73-1323550.jpg",
+		"title": "Mastering JavaScript in 2025",
+		"author_name": "Alice Johnson",
+		"author_img": "https://i.ibb.co.com/4ngdJ7GL/pexels-passengerslover-30670285.jpg",
+		"posted_date": "Mar 10, 2024",
+		"reading_time": "7",
+		"hashtags": ["#JavaScript", "#Programming", "#WebDevelopment"]
+	}
+]
