@@ -19,8 +19,11 @@ function App() {
 		if (!isDuplicate) setBookmarks([...bookmarks, newBookmark]);
 	};
 
-	const handleMarkAsRead = time => {
+	const handleMarkAsRead = (time, id) => {
 		setreadingTime(readingTime + parseInt(time));
+		//remove from bookmark list
+		const newBookmarks = bookmarks.filter(item => item.id !== id);
+		setBookmarks(newBookmarks);
 	};
 
 	return (
